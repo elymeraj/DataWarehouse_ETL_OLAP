@@ -1,0 +1,6 @@
+-- EX9: Écrire une requête permettant de visualiser le nombre et le prix moyen 
+--      des ventes par département de réalisation de la prestation.
+
+SELECT [Localisation].[Standard].[Département].MEMBERS ON COLUMNS,
+       {[Measures].[Nombre de ventes], [Measures].[Prix moyen]} ON ROWS
+FROM [Ventes]

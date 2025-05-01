@@ -1,0 +1,11 @@
+-- EX7: Écrire de même une requête pour les jours du mois. Par exemple, on voudrait pouvoir 
+--      visualiser le nombre total de ventes réalisés un 15 du mois, sur tout l’historique.
+
+SELECT {[Measures].[Nombre de ventes]} ON ROWS, 
+       [Date].[Analyse par jours].[Jour].MEMBERS ON COLUMNS
+FROM [Ventes]
+
+-- Qu’observe-t-on en exécutant la requête ?
+-- On remarque que le nombre de ventes est élevé pour les premiers jours du mois, 
+-- particulièrement entre le 1er et le 9e jour, avec un pic autour du 7e jour. 
+-- À partir du 10e jour, on observe une baisse significative des ventes.

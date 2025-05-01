@@ -1,0 +1,13 @@
+-- EX8: Écrire une requête permettant de visualiser les nombres de ventes, en fonction de la 
+--      région du client et de celle où la prestation a été réalisée. 
+SELECT 
+    {[Client].[ParRégion].[Région].MEMBERS} ON COLUMNS, 
+    {[Localisation].[Standard].[Région].MEMBERS} ON ROWS
+FROM [Ventes]
+WHERE [Measures].[Nombre de ventes]
+
+
+-- Qu’observe-t-on en exécutant la requête?
+-- Les régions avec une forte activité économique, telles que l'Île-de-France enregistrent un nombre élevé de ventes, 
+-- probablement en raison de leur densité de population 
+-- En revanche, les régions rurales ou à faible densité démographique ont généralement un nombre de ventes plus bas.

@@ -1,0 +1,14 @@
+-- Exercice 11 : Écrire une requête permettant de visualiser les durées moyennes d’intervention, en fonction 
+--              de la catégorie de prestation, de la région où la prestation a été réalisée, et du trimestre. 
+
+SELECT 
+    {[Date].[Standard].[Trimestre].MEMBERS} ON COLUMNS, 
+    {[Prestation].[ParCategorie].[Catégorie].MEMBERS * [Localisation].[Standard].[Région].MEMBERS} ON ROWS
+FROM [Ventes]
+WHERE [Measures].[Durée moyenne d'intervention]
+
+-- Qu’observe-t-on en exécutant la requête ?
+-- on remarque que pour la catégorie depanage, la région de Mayotte 
+-- ne présente pas de données pour les durées moyennes d'intervention.
+
+

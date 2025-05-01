@@ -1,0 +1,12 @@
+-- EX6: Écrire une requête permettant de visualiser le chiffre d’affaires et le nombre 
+--      de ventes par heure de la journée (cumulés sur toute la période). 
+--      Par exemple, on voudrait pouvoir visualiser le nombre total de ventes réalisés 
+--      à 4 h du matin, sur tout l’historique. 
+
+SELECT {[Measures].[CA], [Measures].[Nombre de ventes]} ON ROWS, 
+       [Date].[Analyse par heure].[Heure].MEMBERS ON COLUMNS
+FROM [Ventes]
+
+-- Qu’observe-t-on en exécutant la requête ? 
+-- On remarque que de 20h jusqu'à 6h il n'y a pas de vente, l'activité est concentrée 
+-- entre 7h et 19h. De plus, il n'y a aucune vente enregistrée à 4h du matin.

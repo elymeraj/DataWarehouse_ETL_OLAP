@@ -1,0 +1,147 @@
+id;insee;zip;name;slug;latitude;longitude;departments_id;departments_code;departments_name;departments_slug;regions_id;code;regions_name;regions_slug
+35760;               ;97500          ;Miquelon-Langlade       ;miquelon langlade       ;47;-56.3;102;975            ;Sai;sai;19;COM            ;Collectivités d'Outr;collectivites doutre
+35761;               ;97500          ;Saint-Pierre            ;saint pierre            ;46.8;-56.2;102;975            ;Sai;sai;19;COM            ;Collectivités d'Outr;collectivites doutre
+35762;               ;97133          ;Saint-Barthélemy        ;saint barthelemy        ;17.9;-62.8;103;977            ;Sai;sai;19;COM            ;Collectivités d'Outr;collectivites doutre
+35763;               ;97150          ;Saint-Martin            ;saint martin            ;18.1;-63;104;978            ;Sai;sai;19;COM            ;Collectivités d'Outr;collectivites doutre
+35764;               ;               ;Îles Saint-Paul et Nouve;iles saint paul et nouve;-37.8;77.6;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35764;               ;               ;Îles Saint-Paul et Nouve;iles saint paul et nouve;-37.8;77.6;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35765;               ;               ;Archipel des Kerguelen  ;archipel des kerguelen  ;-49.2;69.6;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35765;               ;               ;Archipel des Kerguelen  ;archipel des kerguelen  ;-49.2;69.6;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35766;               ;               ;Archipel des Crozet     ;archipel des crozet     ;-46.4;51;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35766;               ;               ;Archipel des Crozet     ;archipel des crozet     ;-46.4;51;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35767;               ;               ;La Terre-Adélie         ;la terre adelie         ;-69.2;139;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35767;               ;               ;La Terre-Adélie         ;la terre adelie         ;-69.2;139;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35768;               ;               ;Îles Éparses de l'océan ;iles eparses de l ocean ;-21.5;39.7;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35768;               ;               ;Îles Éparses de l'océan ;iles eparses de l ocean ;-21.5;39.7;105;984            ;Ter;ter;19;COM            ;Collectivités d'Outr;collectivites doutre
+35769;               ;               ;Alo                     ;alo                     ;9.5;42.1;106;986            ;Wal;wal;19;COM            ;Collectivités d'Outr;collectivites doutre
+35769;               ;               ;Alo                     ;alo                     ;9.5;42.1;106;986            ;Wal;wal;19;COM            ;Collectivités d'Outr;collectivites doutre
+35770;               ;               ;Wallis et Futuna        ;wallis et futuna        ;-13.8;-177.1;106;986            ;Wal;wal;19;COM            ;Collectivités d'Outr;collectivites doutre
+35770;               ;               ;Wallis et Futuna        ;wallis et futuna        ;-13.8;-177.1;106;986            ;Wal;wal;19;COM            ;Collectivités d'Outr;collectivites doutre
+35771;               ;               ;Uvea                    ;uvea                    ;-13.3;-176.3;106;986            ;Wal;wal;19;COM            ;Collectivités d'Outr;collectivites doutre
+35771;               ;               ;Uvea                    ;uvea                    ;-13.3;-176.3;106;986            ;Wal;wal;19;COM            ;Collectivités d'Outr;collectivites doutre
+35772;               ;98760          ;Anaa                    ;anaa                    ;-16.9;-144.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35773;               ;               ;Arue                    ;arue                    ;-17.5;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35773;               ;               ;Arue                    ;arue                    ;-17.5;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35774;               ;               ;Arutua                  ;arutua                  ;-15.5;-146.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35774;               ;               ;Arutua                  ;arutua                  ;-15.5;-146.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35775;               ;98730          ;Bora-Bora               ;bora bora               ;-16.5;-151.7;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35776;               ;               ;Faaa                    ;faaa                    ;-17.6;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35776;               ;               ;Faaa                    ;faaa                    ;-17.6;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35777;               ;               ;Fakarava                ;fakarava                ;-16.3;-145.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35777;               ;               ;Fakarava                ;fakarava                ;-16.3;-145.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35778;               ;               ;Fangatau                ;fangatau                ;-15.8;-140.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35778;               ;               ;Fangatau                ;fangatau                ;-15.8;-140.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35779;               ;               ;Fatu-Hiva               ;fatu hiva               ;-10.5;-138.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35779;               ;               ;Fatu-Hiva               ;fatu hiva               ;-10.5;-138.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35780;               ;               ;Gambier                 ;gambier                 ;-23.2;-135;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35780;               ;               ;Gambier                 ;gambier                 ;-23.2;-135;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35781;               ;               ;Hao                     ;hao                     ;-18.3;-140.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35781;               ;               ;Hao                     ;hao                     ;-18.3;-140.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35782;               ;               ;Hikueru                 ;hikueru                 ;-17.6;-142.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35782;               ;               ;Hikueru                 ;hikueru                 ;-17.6;-142.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35783;               ;               ;Hitiaa O Te Ra          ;hitiaa o te ra          ;-17.6;-149.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35783;               ;               ;Hitiaa O Te Ra          ;hitiaa o te ra          ;-17.6;-149.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35784;               ;               ;Hiva-Oa                 ;hiva oa                 ;-9.8;-139;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35784;               ;               ;Hiva-Oa                 ;hiva oa                 ;-9.8;-139;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35785;               ;98731          ;Huahine                 ;huahine                 ;-16.7;-151;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35786;               ;98709          ;Mahina                  ;mahina                  ;-17.5;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35787;               ;               ;Makemo                  ;makemo                  ;-16.6;-143.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35787;               ;               ;Makemo                  ;makemo                  ;-16.6;-143.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35788;               ;               ;Manihi                  ;manihi                  ;-14.4;-145.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35788;               ;               ;Manihi                  ;manihi                  ;-14.4;-145.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35789;               ;98732          ;Maupiti                 ;maupiti                 ;-16.4;-152.3;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35790;               ;98729          ;Moorea-Maiao            ;moorea maiao            ;-17.5;-149.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35791;               ;               ;Napuka                  ;napuka                  ;-14.2;-141.2;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35791;               ;               ;Napuka                  ;napuka                  ;-14.2;-141.2;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35792;               ;               ;Nuku-Hiva               ;nuku hiva               ;-8.9;-140.1;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35792;               ;               ;Nuku-Hiva               ;nuku hiva               ;-8.9;-140.1;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35793;               ;               ;Nukutavake              ;nukutavake              ;-19.3;-138.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35793;               ;               ;Nukutavake              ;nukutavake              ;-19.3;-138.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35794;               ;               ;Paea                    ;paea                    ;-17.7;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35794;               ;               ;Paea                    ;paea                    ;-17.7;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35795;               ;               ;Papara                  ;papara                  ;-17.8;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35795;               ;               ;Papara                  ;papara                  ;-17.8;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35796;               ;               ;Papeete                 ;papeete                 ;-17.5;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35796;               ;               ;Papeete                 ;papeete                 ;-17.5;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35797;               ;               ;Pirae                   ;pirae                   ;-17.5;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35797;               ;               ;Pirae                   ;pirae                   ;-17.5;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35798;               ;               ;Pukapuka                ;pukapuka                ;-14.8;-138.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35798;               ;               ;Pukapuka                ;pukapuka                ;-14.8;-138.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35799;               ;               ;Punaauia                ;punaauia                ;-17.6;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35799;               ;               ;Punaauia                ;punaauia                ;-17.6;-149.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35800;               ;               ;Raivavae                ;raivavae                ;-23.9;-147.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35800;               ;               ;Raivavae                ;raivavae                ;-23.9;-147.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35801;               ;               ;Rangiroa                ;rangiroa                ;-15.1;-147.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35801;               ;               ;Rangiroa                ;rangiroa                ;-15.1;-147.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35802;               ;               ;Rapa                    ;rapa                    ;-27.6;-144.3;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35802;               ;               ;Rapa                    ;rapa                    ;-27.6;-144.3;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35803;               ;               ;Reao                    ;reao                    ;-18.5;-136.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35803;               ;               ;Reao                    ;reao                    ;-18.5;-136.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35804;               ;               ;Rimatara                ;rimatara                ;-22.7;-152.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35804;               ;               ;Rimatara                ;rimatara                ;-22.7;-152.8;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35805;               ;98753          ;Rurutu                  ;rurutu                  ;-22.5;-151.3;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35806;               ;               ;Tahaa                   ;tahaa                   ;-16.6;-151.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35806;               ;               ;Tahaa                   ;tahaa                   ;-16.6;-151.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35807;               ;               ;Tahuata                 ;tahuata                 ;-10;-139.1;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35807;               ;               ;Tahuata                 ;tahuata                 ;-10;-139.1;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35808;               ;98720          ;Taiarapu-Est            ;taiarapu est            ;-17.8;-149.2;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35809;               ;               ;Taiarapu-Ouest          ;taiarapu ouest          ;-17.8;-149.2;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35809;               ;               ;Taiarapu-Ouest          ;taiarapu ouest          ;-17.8;-149.2;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35810;               ;               ;Takaroa                 ;takaroa                 ;-14.4;-144.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35810;               ;               ;Takaroa                 ;takaroa                 ;-14.4;-144.9;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35811;               ;               ;Taputapuatea            ;taputapuatea            ;-16.8;-151.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35811;               ;               ;Taputapuatea            ;taputapuatea            ;-16.8;-151.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35812;               ;98783          ;Tatakoto                ;tatakoto                ;-17.3;-138.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35813;               ;               ;Teva I Uta              ;teva i uta              ;-17.7;-149.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35813;               ;               ;Teva I Uta              ;teva i uta              ;-17.7;-149.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35814;               ;               ;Tubuai                  ;tubuai                  ;-23.4;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35814;               ;               ;Tubuai                  ;tubuai                  ;-23.4;-149.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35815;               ;               ;Tumaraa                 ;tumaraa                 ;-16.8;-151.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35815;               ;               ;Tumaraa                 ;tumaraa                 ;-16.8;-151.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35816;               ;98784          ;Tureia                  ;tureia                  ;-20.8;-138.5;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35817;               ;               ;Ua-Huka                 ;ua huka                 ;-8.9;-139.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35817;               ;               ;Ua-Huka                 ;ua huka                 ;-8.9;-139.6;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35818;               ;               ;Ua-Pou                  ;ua pou                  ;-9.4;-140.1;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35818;               ;               ;Ua-Pou                  ;ua pou                  ;-9.4;-140.1;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35819;               ;98735          ;Uturoa                  ;uturoa                  ;-16.7;-151.4;107;987            ;Pol;pol;19;COM            ;Collectivités d'Outr;collectivites doutre
+35820;               ;98811          ;Belep                   ;belep                   ;-19.7;163.7;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35821;               ;98812          ;Bouloupari              ;bouloupari              ;-21.9;166.1;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35822;               ;98870          ;Bourail                 ;bourail                 ;-21.6;165.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35823;               ;98813          ;Canala                  ;canala                  ;-21.5;166;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35824;               ;               ;Dumbéa                  ;dumbea                  ;-22.2;166.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35824;               ;               ;Dumbéa                  ;dumbea                  ;-22.2;166.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35825;               ;98881          ;Farino                  ;farino                  ;-21.7;165.8;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35826;               ;98815          ;Hienghène               ;hienghene               ;-20.7;164.9;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35827;               ;98816          ;Houaïlou                ;houailou                ;-21.3;165.6;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35828;               ;98832          ;Île-des-Pins            ;ile des pins            ;-22.6;167.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35829;               ;98817          ;Kaala-Gomen             ;kaala gomen             ;-20.7;164.4;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35830;               ;               ;Koné                    ;kone                    ;-21;164.9;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35830;               ;               ;Koné                    ;kone                    ;-21;164.9;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35831;               ;98850          ;Koumac                  ;koumac                  ;-20.6;164.3;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35832;               ;98880          ;La Foa                  ;la foa                  ;-21.7;165.8;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35833;               ;               ;Lifou                   ;lifou                   ;-20.9;167.2;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35833;               ;               ;Lifou                   ;lifou                   ;-20.9;167.2;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35834;               ;               ;Maré                    ;mare                    ;-21.5;168;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35834;               ;               ;Maré                    ;mare                    ;-21.5;168;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35835;               ;98819          ;Moindou                 ;moindou                 ;-21.7;165.7;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35836;               ;               ;Mont-Dore               ;mont dore               ;-22.2;166.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35836;               ;               ;Mont-Dore               ;mont dore               ;-22.2;166.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35837;               ;98800          ;Nouméa                  ;noumea                  ;-22.3;166.4;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35838;               ;98821          ;Ouégoa                  ;ouegoa                  ;-20.3;164.4;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35839;               ;98814          ;Ouvéa                   ;ouvea                   ;-20.4;166.5;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35840;               ;               ;Païta                   ;paita                   ;-22.1;166.4;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35840;               ;               ;Païta                   ;paita                   ;-22.1;166.4;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35841;               ;98822          ;Poindimié               ;poindimie               ;-20.9;165.3;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35842;               ;98823          ;Ponérihouen             ;ponerihouen             ;-21.1;165.4;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35843;               ;98824          ;Pouébo                  ;pouebo                  ;-20.4;164.6;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35844;               ;98825          ;Pouembout               ;pouembout               ;-21.1;164.9;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35845;               ;98826          ;Poum                    ;poum                    ;-20.2;164;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35846;               ;98827          ;Poya                    ;poya                    ;-21.3;165.2;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35847;               ;98882          ;Sarraméa                ;sarramea                ;-21.6;165.9;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35848;               ;98829          ;Thio                    ;thio                    ;-21.6;166.2;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35849;               ;98831          ;Touho                   ;touho                   ;-20.8;165.2;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35850;               ;98833          ;Voh                     ;voh                     ;-20.9;164.7;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35851;               ;98834          ;Yaté                    ;yate                    ;-22.2;166.9;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35852;               ;98818          ;Kouaoua                 ;kouaoua                 ;-21.4;165.8;108;988            ;Nou;nou;19;COM            ;Collectivités d'Outr;collectivites doutre
+35853;               ;               ;Île de Clipperton       ;ile de clipperton       ;10.3;-109.2;109;989            ;Île;ile;19;COM            ;Collectivités d'Outr;collectivites doutre
+35853;               ;               ;Île de Clipperton       ;ile de clipperton       ;10.3;-109.2;109;989            ;Île;ile;19;COM            ;Collectivités d'Outr;collectivites doutre

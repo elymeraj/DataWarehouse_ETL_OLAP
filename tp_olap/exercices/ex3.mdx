@@ -1,0 +1,9 @@
+-- EX3:Écrire une requête permettant de visualiser le chiffre d’affaires total par mois, 
+--      les mois étant affichés en toutes lettres. 
+
+SELECT [Date].[Standard].[Nom du Mois].MEMBERS ON 0, 
+       [Measures].[CA] ON 1
+FROM [Ventes]
+
+-- Qu’observe-t-on en exécutant la requête ?
+-- On remarque que pour le mois d'avril de l'année 2020, il n'y a pas de données. 

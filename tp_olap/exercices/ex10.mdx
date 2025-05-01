@@ -1,0 +1,23 @@
+-- EX10: Écrire une requête permettant de visualiser le nombre et le prix moyen des prestations 
+--       réalisées en Normandie, et le nombre et le prix moyen de celles réalisées en Bretagne, 
+--       pour chaque trimestre de 2020. 
+
+SELECT 
+  {[Date].[Standard].[Année].[2020].[1], [Date].[Standard].[Année].[2020].[2], [Date].[Standard].[Année].[2020].[3], [Date].[Standard].[Année].[2020].[4]} ON COLUMNS, 
+  {
+    ([Measures].[Nombre de ventes], [Localisation].[Standard].[Région].[Normandie]), 
+    ([Measures].[Prix moyen], [Localisation].[Standard].[Région].[Normandie]), 
+    ([Measures].[Nombre de ventes], [Localisation].[Standard].[Région].[Bretagne]), 
+    ([Measures].[Prix moyen], [Localisation].[Standard].[Région].[Bretagne])
+  } ON ROWS
+FROM [Ventes]
+
+-- Qu’observe-t-on en exécutant la requête ?
+-- On remarque que pour le nombre de ventes, la Bretagne a un plus grand nombre de ventes 
+-- pour le 1er et le 4e trimestre, tandis que la Normandie a un plus grand nombre de ventes 
+-- pour le 2e et le 3e trimestre. 
+-- En ce qui concerne le prix moyen, c'est la même tendance : la Normandie a des prix moyens 
+-- plus élevés pour le 2e et le 3e trimestre, et la Bretagne pour le 1er et le 4e trimestre 
+-- mais sans grande différence.
+
+

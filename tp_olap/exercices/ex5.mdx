@@ -1,0 +1,8 @@
+-- EX5: Écrire une requête permettant de visualiser le chiffre d’affaires total par mois, 
+--      les mois étant affichés en toutes lettres et les ventes étant cumulées seulement 
+--      sur celles ayant été réalisées en Normandie et en Bretagne.
+
+SELECT [Date].[Standard].[Nom du Mois].MEMBERS ON COLUMNS, 
+       [Measures].[CA] ON ROWS
+FROM [Ventes]
+WHERE {[Localisation].[Région].&[Normandie], [Localisation].[Région].&[Bretagne]}

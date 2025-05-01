@@ -1,0 +1,7 @@
+-- EX4:Écrire une requête permettant de visualiser le chiffre d’affaires total par mois, 
+--     les mois étant affichés en toutes lettres, pour les prestations réalisées en Normandie 
+--     et pour celles réalisées en Bretagne.
+
+SELECT [Date].[Standard].[Nom du Mois].MEMBERS ON 0, 
+       {[Localisation].[Région].&[Normandie], [Localisation].[Région].&[Bretagne]} ON 1
+FROM [Ventes]

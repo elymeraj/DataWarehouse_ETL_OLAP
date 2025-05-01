@@ -1,0 +1,75 @@
+--La table des VENTES
+DROP TABLE IF EXISTS Vente;
+CREATE TABLE Vente (
+    vente_id         INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    id_technique     INTEGER NOT NULL REFERENCES Client(id_technique),
+    cle_prestation   INTEGER NOT NULL REFERENCES Prestation(cle_prestation),
+    id_localisation  INTEGER NOT NULL REFERENCES Localisation(id_localisation),
+    cle_date_debut   INTEGER NOT NULL REFERENCES Dates(date_complete),
+    cle_date_fin     INTEGER NOT NULL REFERENCES Dates(date_complete),
+    prix             FLOAT   NOT NULL,
+    adresse          TEXT    NOT NULL,
+    duration         INTEGER NOT NULL,
+    code_postal      TEXT NOT NULL,
+    ville            TEXT    NOT NULL,
+    date_insertion   TEXT    NOT NULL
+);
+
+-- La table Client
+DROP TABLE IF EXISTS Client;
+CREATE TABLE Client (
+    id_technique    INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+    cle_client      INTEGER NOT NULL,
+    num_client      TEXT NOT NULL,
+    nom             TEXT NOT NULL,
+    prenom          TEXT NOT NULL,
+    adresse         TEXT NOT NULL,
+    code_postal     TEXT NOT NULL,
+    ville           TEXT NOT NULL,
+    department_code TEXT NOT NULL,
+    department_nom  TEXT NOT NULL,
+    region_code     TEXT NOT NULL,
+    region_nom      TEXT NOT NULL,
+    date_debut               NULL,
+    date_fin                 NULL
+);
+
+-- La table Prestation
+DROP TABLE IF EXISTS Prestation;
+CREATE TABLE Prestation (
+    cle_prestation       INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    code_prestation      TEXT NOT NULL,
+    nom_prestation       TEXT NOT NULL,
+    categorie_prestation TEXT NOT NULL
+);
+
+-- La table Dates
+DROP TABLE IF EXISTS Dates;
+CREATE TABLE Dates (
+    date_complete TEXT PRIMARY KEY NOT NULL,
+    annee         INTEGER NOT NULL,
+    trimestre     INTEGER NOT NULL,
+    mois          INTEGER NOT NULL,
+    nom_mois      TEXT    NOT NULL,
+    jour_mois     INTEGER NOT NULL,
+    nom_jour      TEXT    NOT NULL,
+    heure         INTEGER NOT NULL,
+    minute        INTEGER NOT NULL
+);
+
+-- La table Localisation
+DROP TABLE IF EXISTS Localisation;
+CREATE TABLE Localisation (
+    id_localisation INTEGER PRIMARY KEY NOT NULL,
+    ville	    TEXT NOT NULL,
+    insee           TEXT NOT NULL,
+    code_postal     TEXT NOT NULL,
+    department_code INTEGER NOT NULL,
+    department_nom  TEXT NOT NULL,
+    region_code     INTEGER NOT NULL,
+    region_nom      TEXT NOT NULL
+);
+
+
+
+

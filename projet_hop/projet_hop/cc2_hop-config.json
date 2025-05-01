@@ -1,0 +1,35 @@
+{
+  "variables" : [ {
+    "name" : "data_in",
+    "value" : "/Users/D00M/Desktop/projet_hop/projet_hop/data_in",
+    "description" : ""
+  }, {
+    "name" : "data_out",
+    "value" : "/Users/D00M/Desktop/projet_hop/projet_hop/data_out",
+    "description" : ""
+  }, {
+    "name" : "dates_file",
+    "value" : "${data_in}/dates.csv",
+    "description" : ""
+  }, {
+    "name" : "geography_file",
+    "value" : "${data_in}/geography.csv",
+    "description" : ""
+  }, {
+    "name" : "operational_data_file",
+    "value" : "${data_in}/operational_data.db",
+    "description" : ""
+  }, {
+    "name" : "prestations_file",
+    "value" : "${data_in}/prestations.csv",
+    "description" : ""
+  }, {
+    "name" : "datawarehouse_file_out",
+    "value" : "${data_out}/datawarehouse.db",
+    "description" : ""
+  }, {
+    "name" : "error_file",
+    "value" : "${data_out}/errors.csv",
+    "description" : ""
+  } ]
+}
