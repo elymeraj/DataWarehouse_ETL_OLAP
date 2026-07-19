@@ -1,49 +1,82 @@
-# Data Warehouse Project – ETL & OLAP
+# Data Warehouse, ETL, and OLAP Analysis
 
-This project was completed as part of the Advanced Databases course (M1, University of Caen Normandy).  
-It consists of two main parts:
+Data engineering project covering the construction of an analytical data warehouse from operational sources through to multidimensional OLAP analysis.
 
-- **ETL Part**: Designing and populating a data warehouse using Apache Hop and SQLite.
-- **OLAP Part**: Building and querying a multidimensional cube using Pentaho Mondrian and MDX.
+The project combines Apache Hop ETL pipelines, SQLite, a Mondrian cube, and MDX queries.
 
----
+## Architecture
 
-## ETL Part (`projet_hop` folder)
+```mermaid
+flowchart LR
+    Sources["Operational sources"] --> ETL["Apache Hop pipelines"]
+    ETL --> DW[("SQLite data warehouse")]
+    DW --> Cube["Mondrian OLAP cube"]
+    Cube --> MDX["MDX analysis"]
+```
 
-This part is located in the `projet_hop/projet_hop` directory. It includes everything needed to create and populate the data warehouse using Apache Hop and SQLite3.
+## Main components
 
-### File Organization
+### ETL and data warehouse
 
-- `datawarehouse.txt`: SQL script used to create the data warehouse tables with SQLite.
+The `projet_hop/projet_hop` directory contains:
 
-- ETL Pipelines:
-  - `pipeline1.hpl`, `pipeline2.hpl`, `pipeline3.hpl`: Hop pipelines used to load data into the warehouse.
+- `datawarehouse.txt`: SQL schema for the analytical warehouse
+- `pipeline1.hpl`, `pipeline2.hpl`, `pipeline3.hpl`: Apache Hop ingestion and transformation pipelines
+- `data_in/`: dates, geographic data, services, and the operational database
+- `data_out/datawarehouse.db`: generated SQLite warehouse
+- `data_out/Errors.csv.txt`: rejected or invalid rows captured during loading
 
-- `data_in/` folder – Contains input files used to populate the data warehouse:
-  - `dates.csv`
-  - `geographie.csv`
-  - `operational_data.db`
-  - `prestations.csv`
+The warehouse organizes sales facts around client, service, date, and location dimensions.
 
-- `data_out/` folder – Contains output files generated after processing:
-  - `datawarehouse.db`: Final SQLite database representing the data warehouse.
-  - `Errors.csv.txt`: File containing errors encountered during the data loading process.
+### OLAP analysis
 
-In the root `projet_hop` directory, you will also find the file `diagramme.png`, which illustrates the schema used to design the data warehouse.  
-For more details, refer to the report.
+The `tp_olap` directory contains:
 
----
+- the generated `datawarehouse.db`
+- the Mondrian XML schema
+- exercise configuration files
+- individual MDX queries from `ex2.mdx` to `ex11.mdx`
+- a small viewer for displaying query results
 
-## OLAP Part (`tp_olap` folder)
+## Technologies
 
-We placed a copy of our `datawarehouse.db` in the `tp_olap/datawarehouse` folder.
+Apache Hop · SQLite · SQL · ETL · Data Warehousing · Multidimensional Modeling · Pentaho Mondrian · OLAP · MDX
 
-The XML schema is located in the `exercices` folder, along with all the required MDX queries.  
-Each MDX query is written in a separate file (`ex2.mdx`, `ex3.mdx`, ..., `ex11.mdx`), allowing you to execute each query individually.
+## Repository structure
 
-### Instructions to execute MDX queries
+```text
+projet_hop/
+  projet_hop/
+    data_in/             Operational input sources
+    data_out/            Generated warehouse and error report
+    datawarehouse.txt    Warehouse SQL schema
+    pipeline*.hpl        Apache Hop pipelines
+  diagramme.png          Warehouse schema
 
-1. Navigate to the `tp_olap` directory.
-2. Execute the following command for each MDX query (replace the filename with the one you want to run):
-   ```bash
-   sh run.sh -p exercices/exercice.properties -f exercices/ex9.mdx | java -jar lib/mondrian_view.jar
+tp_olap/
+  datawarehouse/         SQLite warehouse used by Mondrian
+  exercices/             Mondrian configuration and MDX queries
+  lib/                   OLAP viewer dependencies
+  run.sh                 Query execution script
+```
+
+## Running an MDX query
+
+From the `tp_olap` directory, replace the query filename with the analysis you want to execute:
+
+```bash
+sh run.sh -p exercices/exercice.properties -f exercices/ex9.mdx \
+  | java -jar lib/mondrian_view.jar
+```
+
+## Learning outcomes
+
+- Design a dimensional analytical schema
+- Build reproducible ETL workflows from heterogeneous sources
+- Track rejected records during ingestion
+- Construct and query a multidimensional cube
+- Translate analytical questions into MDX queries
+
+## Context
+
+Completed as part of the Advanced Databases course in the Master's degree in Artificial Intelligence at the University of Caen Normandy.
